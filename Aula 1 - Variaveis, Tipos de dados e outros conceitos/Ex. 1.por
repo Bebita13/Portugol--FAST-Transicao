@@ -3,12 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro contador = 2
-
-		enquanto (contador <= 100){
-			escreva (contador, "\n")
-			contador = contador +2
-		}
+		inteiro a, b, soma
+		escreva ( "--- VAMOS SOMAR --- \n Digite o primeiro número: ")
+		leia (a)
+		escreva (" Digite o segundo número: ")
+		leia (b)
+		soma = (a + b)
+		escreva (" A soma entre ", a, " e " ,b, " é " ,soma,".")
+		
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 258; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

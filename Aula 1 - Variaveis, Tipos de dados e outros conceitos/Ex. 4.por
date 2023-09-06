@@ -3,12 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro contador = 100
+		real a, b, media
 
-		enquanto (contador > 0) {
-			escreva (contador, "\n")
-			contador --
-		}
+		escreva(" Sua primeira nota: ")
+		leia(a)
+		escreva("Segunda nota: ")
+		leia(b)
+		media = ((a * 3.5) + (b * 7.5)) / 11
+		escreva( "Sua média é: ", media)
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,9 +20,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 88; 
+ * @POSICAO-CURSOR = 173; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {contador, 6, 10, 8};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

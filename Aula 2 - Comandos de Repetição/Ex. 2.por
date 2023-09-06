@@ -3,16 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro a, b, soma
-		escreva ( "--- VAMOS SOMAR --- \n Digite o primeiro número: ")
-		leia (a)
-		escreva (" Digite o segundo número: ")
-		leia (b)
-		soma = (a + b)
-		escreva (" A soma entre ", a, " e " ,b, " é " ,soma,".")
-		
-		
-		
+		inteiro n1, r
+
+		escreva ("Digite um número: ")
+		leia(n1)
+		r = n1 % 2
+
+		enquanto (r == 1){
+			escreva ("Entrada incorreta! Digite um número correto: ")
+			leia(n1)
+			r = n1 % 2
+		}escreva("Você digitou um número par!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 258; 
+ * @POSICAO-CURSOR = 269; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

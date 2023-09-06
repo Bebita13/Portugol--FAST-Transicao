@@ -3,18 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		real n1, n2, n3, n4, media
+		cadeia login, senha
 
-		escreva( "--- Vamos descobrir sua média? --- \nPrimeira nota: ")
-		leia (n1)
-		escreva ("Segunda nota: ")
-		leia (n2)
-		escreva ("Terceira nota: ")
-		leia (n3)
-		escreva ("Quarta nota: ")
-		leia (n4)
-		media =(n1+n2+n3+n4)/4
-		escreva ("Sua média é: " , media)
+		escreva ("Digite um login: ")
+		leia (login)
+		escreva ("Digite a senha: ")
+		leia (senha)
+
+		enquanto (login == senha){
+			escreva ("A senha não pode ser igual ao login!\nDigite uma nova senha: ")
+			leia(senha)
+		} escreva("Dados cadastrados com sucesso!")
 		
 	}
 }
@@ -23,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 117; 
+ * @POSICAO-CURSOR = 321; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
